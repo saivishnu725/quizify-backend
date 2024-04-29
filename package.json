@@ -1,0 +1,24 @@
+{
+  "name": "quizify-backend",
+  "version": "0.0.1",
+  "description": "The Express based backend code for the quizify site. API and DB access.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saivishnu725/quizify-backend.git"
+  },
+  "keywords": [
+    "quizify",
+    "backend",
+    "react"
+  ],
+  "author": "The Unconcerned Ape",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/saivishnu725/quizify-backend/issues"
+  },
+  "homepage": "https://github.com/saivishnu725/quizify-backend#readme"
+}
