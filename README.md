@@ -10,6 +10,10 @@ The Express based backend code for the quizify site. API and DB access.
 2. [NPM](https://npmjs.com)
 3. [Web Browser](https://www.mozilla.org/en-US/firefox/new/)
 
+## Resources
+
+1. [ER Diagram](https://drawsql.app/teams/the-unconcerned-apes-team/diagrams/quizify)
+
 ## How to run it locally
 
 1. Install node dependencies
