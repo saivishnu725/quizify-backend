@@ -13,6 +13,7 @@ The Express based backend code for the quizify site. API and DB access.
 ## Resources
 
 1. [ER Diagram](https://drawsql.app/teams/the-unconcerned-apes-team/diagrams/quizify)
+2. [ChatGPT describing the DataBase schema](https://chatgpt.com/share/61dda5b1-02e1-4393-965e-abb2cd1f7f04)
 
 ## How to run it locally
 
