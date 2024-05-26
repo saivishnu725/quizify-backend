@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "The Express based backend code for the quizify site. API and DB access.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,12 +16,16 @@
   "keywords": [
     "quizify",
     "backend",
-    "react"
+    "express"
   ],
   "author": "The Unconcerned Ape",
   "license": "GPL-2.0",
   "bugs": {
     "url": "https://github.com/saivishnu725/quizify-backend/issues"
   },
-  "homepage": "https://github.com/saivishnu725/quizify-backend#readme"
+  "homepage": "https://github.com/saivishnu725/quizify-backend#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
 }
