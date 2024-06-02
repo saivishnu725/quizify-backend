@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS quizzing;
+CREATE DATABASE IF NOT EXISTS quizify;
 
-USE quizzing;
+USE quizify;
 
 CREATE TABLE
     `user_quizzes` (

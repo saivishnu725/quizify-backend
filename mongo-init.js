@@ -1,4 +1,4 @@
-db = db.getSiblingDB('quizzing'); // Switch to quizzing database
+db = db.getSiblingDB('quizify'); // Switch to quizify database
 
 // Create QuizzesCollection
 db.createCollection('QuizzesCollection', {
