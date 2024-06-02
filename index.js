@@ -24,7 +24,7 @@ app.get("/", function (req, res) {
     res.send("Hello World!");
 });
 
-app.use('/routes/auth', authRoutes);
+app.use('/auth', authRoutes);
 
 app.listen(PORT, function () {
     console.log(`Example app listening on port ${PORT}!`);
