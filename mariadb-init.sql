@@ -60,3 +60,26 @@ ALTER TABLE `quizzes` ADD CONSTRAINT `quizzes_creator_id_foreign` FOREIGN KEY (`
 ALTER TABLE `user_quizzes` ADD CONSTRAINT `user_quizzes_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `Users` (`id`);
 
 ALTER TABLE `quiz_sessions` ADD CONSTRAINT `quiz_sessions_host_id_foreign` FOREIGN KEY (`host_id`) REFERENCES `Users` (`id`);
+
+INSERT INTO
+    quizify.Users (
+        account_created,
+        first_name,
+        last_name,
+        email,
+        username,
+        password,
+        quiz_attended,
+        quiz_created
+    )
+VALUES
+    (
+        '2024-06-07 06:03:15',
+        'sai',
+        'vishnu',
+        'saivishn725@gmail.com',
+        'saivish',
+        '$2b$10$/WT5KDaJHUaaeSF8X610yO4bBi4CAOugBtnL3Reqso//1QTUSDT4O',
+        0,
+        0
+    );
