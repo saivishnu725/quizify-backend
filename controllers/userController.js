@@ -92,11 +92,11 @@ export async function register(req, res) {
   } catch (err) {
     // Handle any errors
     console.error(err.message);
-    res.cookie("token", token, {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === "production", // Set to true if using HTTPS
-      sameSite: "Lax",
-    });
+    // res.cookie("token", token, {
+    //   httpOnly: true,
+    //   secure: process.env.NODE_ENV === "production", // Set to true if using HTTPS
+    //   sameSite: "Lax",
+    // });
     res.status(500).send(`Server Error\n\n ${err.message}`);
   }
 }
